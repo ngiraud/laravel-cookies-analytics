@@ -39,9 +39,9 @@ return [
             ],
             'position' => 'bottom-right',
             'content' => [
-                'message' => "Ce site utilise des cookies pour vous assurer d'obtenir la meilleure expérience sur notre site.",
-                'dismiss' => "C'est compris !",
-                'link' => "Voir plus"
+                'message' => "This site uses cookies to ensure you get the best experience on our website.",
+                'dismiss' => "Understood!",
+                'link' => "See more"
             ]
         ]
     ],

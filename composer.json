@@ -1,39 +1,39 @@
 {
-  "name": "ngiraud/laravel-cookies-analytics",
-  "description": "Add Google Analytics and cookie consent to your application.",
-  "keywords": [
-    "laravel",
-    "cookies",
-    "analytics",
-    "laravel-cookies-analytics"
-  ],
-  "homepage": "https://github.com/ngiraud/laravel-cookies-analytics",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Nicolas Giraud",
-      "email": "contact@ngiraud.me",
-      "homepage": "https://www.nicolasgiraud.fr",
-      "role": "Developer"
+    "name": "ngiraud/laravel-cookies-analytics",
+    "description": "Add Google Analytics and cookie consent to your application.",
+    "keywords": [
+        "laravel",
+        "cookies",
+        "analytics",
+        "laravel-cookies-analytics"
+    ],
+    "homepage": "https://github.com/ngiraud/laravel-cookies-analytics",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolas Giraud",
+            "email": "contact@ngiraud.me",
+            "homepage": "https://www.nicolasgiraud.fr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "illuminate/support": "~5.8.0|^6.0|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NGiraud\\CookiesAnalytics\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NGiraud\\CookiesAnalytics\\CookiesAnalyticsServiceProvider"
+            ]
+        }
     }
-  ],
-  "require": {
-    "php": "^7.2",
-    "illuminate/support": "~5.8.0|^6.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "NGiraud\\CookiesAnalytics\\": "src"
-    }
-  },
-  "config": {
-    "sort-packages": true
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "NGiraud\\CookiesAnalytics\\CookiesAnalyticsServiceProvider"
-      ]
-    }
-  }
 }
