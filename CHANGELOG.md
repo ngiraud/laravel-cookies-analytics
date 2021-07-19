@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-cookies-analytics` will be documented in this file
 
+## 3.0.0 - 2021-07-19
+
+- Add support for Laravel 8
+
 ## 2.0.0 - 2020-06-18
 
 - Add support for Laravel 7
